@@ -1,7 +1,7 @@
 package consumers
 
 import (
-	"github.com/javiersrf/juris-workers/config"
+	"github.com/javiersrf/gika/config"
 	"github.com/streadway/amqp"
 )
 

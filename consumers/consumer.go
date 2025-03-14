@@ -3,7 +3,7 @@ package consumers
 import (
 	"log"
 
-	"github.com/javiersrf/juris-workers/handlers"
+	"github.com/javiersrf/gika/handlers"
 	"github.com/streadway/amqp"
 )
 

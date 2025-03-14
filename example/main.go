@@ -3,14 +3,15 @@ package main
 import (
 	"fmt"
 
-	"github.com/javiersrf/juris-workers/config"
-	"github.com/javiersrf/juris-workers/consumers"
-	"github.com/javiersrf/juris-workers/handlers"
+	"github.com/javiersrf/gika/config"
+	"github.com/javiersrf/gika/consumers"
+	"github.com/javiersrf/gika/handlers"
 	"github.com/streadway/amqp"
 )
 
 func main() {
-	fmt.Println("RabbitMQ in Golang: Getting started tutorial")
+	fmt.Println("RabbitMQ in Golang")
+
 	config := config.InitConfig()
 	conn := consumers.Init(*config)
 	defer conn.Close()

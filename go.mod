@@ -1,4 +1,4 @@
-module github.com/javiersrf/juris-workers
+module github.com/javiersrf/gika
 
 go 1.22.2
 
